@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SAGDPRKisMinor_Example' do
+  pod 'SAGDPRKisMinor', :path => '../'
+
+  target 'SAGDPRKisMinor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

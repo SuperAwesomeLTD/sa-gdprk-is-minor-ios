@@ -1,0 +1,16 @@
+PODS:
+  - SAGDPRKisMinor (0.1.0)
+
+DEPENDENCIES:
+  - SAGDPRKisMinor (from `../`)
+
+EXTERNAL SOURCES:
+  SAGDPRKisMinor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SAGDPRKisMinor: 388b468d12bb65254c25438e79f5e267a2f3b5da
+
+PODFILE CHECKSUM: b47ecdad43905810b63d07a2c6efdbc28b6af325
+
+COCOAPODS: 1.5.0
