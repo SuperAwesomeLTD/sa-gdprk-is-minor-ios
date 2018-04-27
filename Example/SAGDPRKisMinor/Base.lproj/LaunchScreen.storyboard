@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XNH-bD-FyN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mqD-FJ-qZn">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,58 +11,36 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="hLz-PJ-cOh">
+        <scene sceneID="Xov-w4-m2c">
             <objects>
-                <viewController id="DX8-gh-ihD" sceneMemberID="viewController">
+                <viewController id="mqD-FJ-qZn" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="At4-1m-d8n"/>
-                        <viewControllerLayoutGuide type="bottom" id="jKX-tE-Xb3"/>
+                        <viewControllerLayoutGuide type="top" id="U7N-xC-3XW"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tsd-XQ-MUa"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="crD-rY-JQy">
+                    <view key="view" contentMode="scaleToFill" id="2St-Oq-dby">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8nS-gQ-jZV">
-                                <rect key="frame" x="67" y="248" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="SA Age Check" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8nS-gQ-jZV">
+                                <rect key="frame" x="67" y="317" width="240" height="33"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="QKY-tA-rpX"/>
-                                    <constraint firstAttribute="height" constant="128" id="eDF-N5-1sn"/>
-                                </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="jKX-tE-Xb3" firstAttribute="top" secondItem="8nS-gQ-jZV" secondAttribute="bottom" constant="291" id="2ON-bH-7dV"/>
-                            <constraint firstItem="8nS-gQ-jZV" firstAttribute="leading" secondItem="crD-rY-JQy" secondAttribute="leadingMargin" constant="51" id="X7R-9Z-l68"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="8nS-gQ-jZV" secondAttribute="trailing" constant="52" id="dVG-M4-Gbf"/>
-                            <constraint firstItem="8nS-gQ-jZV" firstAttribute="top" secondItem="At4-1m-d8n" secondAttribute="bottom" constant="184" id="dj9-Dh-uJZ"/>
+                            <constraint firstItem="8nS-gQ-jZV" firstAttribute="top" secondItem="U7N-xC-3XW" secondAttribute="bottom" constant="297" id="ao1-mA-2fR"/>
+                            <constraint firstItem="8nS-gQ-jZV" firstAttribute="centerX" secondItem="2St-Oq-dby" secondAttribute="centerX" id="dNB-cT-Cuu"/>
+                            <constraint firstItem="8nS-gQ-jZV" firstAttribute="leading" secondItem="2St-Oq-dby" secondAttribute="leadingMargin" constant="51" id="job-CH-gcG"/>
+                            <constraint firstItem="8nS-gQ-jZV" firstAttribute="centerY" secondItem="2St-Oq-dby" secondAttribute="centerY" id="om6-5v-Yry"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="qPF-D8-XkZ"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3ET-YS-9hc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IO3-Wf-mRC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="815" y="347"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="x2K-ke-5GW">
-            <objects>
-                <navigationController id="XNH-bD-FyN" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cim-Ls-8vx">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="DX8-gh-ihD" kind="relationship" relationship="rootViewController" id="gZA-5k-h9L"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fnd-JZ-7rm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-7" y="347"/>
+            <point key="canvasLocation" x="114.40000000000001" y="-108.39580209895054"/>
         </scene>
     </scenes>
 </document>
