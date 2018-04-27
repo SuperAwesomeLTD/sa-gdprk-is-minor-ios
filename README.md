@@ -33,9 +33,15 @@ SAGDPRKisMinor is available under the MIT license. See the LICENSE file for more
 Podfile of project where we want to use it
 
 - dependency on Cocoa Pods Master repo Github
+
+	```
 	source 'https://github.com/CocoaPods/Specs.git'
+	```
 - dependency on our own private pod specs repo - this holds refs to our existent and future Podspecs
+
+	```
 	source 'https://github.com/SuperAwesomeLTD/sa-private-pods-specs-ios.git' 
+	```
 
 Then add the actual PRIVATE pod to podspec of the project we want to use on:
 s.dependency ’SAGDPRKisMinor’, '1.0.0'
