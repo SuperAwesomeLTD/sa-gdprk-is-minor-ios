@@ -28,7 +28,7 @@ GuilhermeMota93, guilherme.mota@superawesome.tv
 
 SAGDPRKisMinor is available under the MIT license. See the LICENSE file for more info.
 
-##How to add to another project
+## How to add to another project
 
 Podfile of project where we want to use it
 
