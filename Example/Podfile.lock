@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SAGDPRKisMinor: f20601bc7ea0ae855565eafdca53b8711382f35a
+  SAGDPRKisMinor: ea3117f0bcbceacd03cd09fcb7b6e9517260f4ea
   SAJsonParser: 528ef25b7cf7f362164731a7aa8401bc89dc4cf5
   SANetworking: bd3fc423e108b09dbad94564af19de9ea6652ae7
   SAUtils: c0d6c68af97b4fdc18a1dcc613f9b5cde25b78f8

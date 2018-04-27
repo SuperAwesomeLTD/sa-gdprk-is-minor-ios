@@ -18,7 +18,7 @@ The SuperAwesome GDPR-K is minor iOS SDK
   s.source           = {
  	:git => "https://github.com/SuperAwesomeLTD/sa-gdprk-is-minor-ios.git", 
 	:branch => "master",
-	:tag => "0.1.0" 
+	:tag => "#{s.version}" 
 }
   s.ios.deployment_target = '9.0'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.2' }
