@@ -1,0 +1,11 @@
+if ENV['SA_USE_DEV_FASTFILE'] then
+  USER = `printf $USER`
+  import "/Users/#{USER}/Workspace/sa-continuous-integration/mobile/sdks/ios/Fastfile"
+else
+
+  import_from_git(
+    url: "git@github.com:SuperAwesomeLTD/sa-continuous-integration.git",
+    branch: "master",
+    path: "mobile/sdks/ios/Fastfile",
+  )
+end
