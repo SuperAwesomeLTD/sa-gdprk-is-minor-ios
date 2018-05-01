@@ -246,6 +246,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				B2E53F05570832A48535E158 /* [CP] Embed Pods Frameworks */,
+				C89DBE8A0771937CBBCA2222 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +266,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				60D8DBA401BEA16BAB56F419 /* [CP] Embed Pods Frameworks */,
+				B5142A5927E989EBE87976C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -415,6 +417,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Example/Pods-SAGDPRKisMinor_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5142A5927E989EBE87976C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Tests/Pods-SAGDPRKisMinor_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C89DBE8A0771937CBBCA2222 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Example/Pods-SAGDPRKisMinor_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
