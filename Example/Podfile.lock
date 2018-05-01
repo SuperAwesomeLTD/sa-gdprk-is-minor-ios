@@ -21,14 +21,23 @@ DEPENDENCIES:
   - Nimble
   - SAGDPRKisMinor (from `../`)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Mockingjay
+    - Nimble
+    - SAJsonParser
+    - SANetworking
+    - SAUtils
+    - URITemplate
+
 EXTERNAL SOURCES:
   SAGDPRKisMinor:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   Mockingjay: 11a621880d2887f1775bdcf824341eb68f218450
   Nimble: 391f07782af4b37914f9bd7b2ffbb952731b8202
-  SAGDPRKisMinor: 4afc1af481ad8503f5e452499a58bed9efefbb02
+  SAGDPRKisMinor: d0040eee23d8bef08b29b84c0b1954202aeb4d76
   SAJsonParser: 528ef25b7cf7f362164731a7aa8401bc89dc4cf5
   SANetworking: bd3fc423e108b09dbad94564af19de9ea6652ae7
   SAUtils: c0d6c68af97b4fdc18a1dcc613f9b5cde25b78f8
@@ -36,4 +45,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: bcc2e06b3012512bc2b5ed1c66cfa8c90d628909
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0
