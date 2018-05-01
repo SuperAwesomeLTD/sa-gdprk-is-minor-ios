@@ -16,7 +16,7 @@
 + (instancetype) sdk;
 
 // Get is minor
-- (void) getIsMinor:(NSString*) identifier :(GetIsMinorBlock)response;
+- (void) getIsMinor:(NSString*) dateOfBirth :(GetIsMinorBlock)response;
 
 // other setters & getters
 

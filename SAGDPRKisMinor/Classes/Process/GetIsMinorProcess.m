@@ -9,18 +9,28 @@
 #import "GetIsMinorModel.h"
 
 @interface GetIsMinorProcess ()
-@property (nonatomic, strong) NSString *identifier;
+@property (nonatomic, strong) NSString *bundleId;
+@property (nonatomic, strong) NSString *dateOfBirth;
 @property (nonatomic, strong) GetIsMinorBlock getIsMinorModel;
 @end
 
 @implementation GetIsMinorProcess
 
 - (NSString*) getEndpoint {
-    return [NSString stringWithFormat:@"v1/countries/child-age?identifier=/%@", _identifier];
+    return @"v1/countries/child-age";
 }
 
 - (HTTP_METHOD) getMethod {
     return GET;
+}
+
+- (NSDictionary *)getQuery{
+    
+    return @{
+             @"bundleId": nullSafe(_bundleId),
+             @"dob": nullSafe(_dateOfBirth)
+             };
+    
 }
 
 - (void) successWithStatus:(NSInteger)status andPayload:(NSString *)payload andSuccess:(BOOL)success {
@@ -37,9 +47,11 @@
     }
 }
 
-- (void) executeWithIdentifier:(NSString*)theIdentifier
-                              :(GetIsMinorBlock)getIsMinorModel {
-    _identifier = theIdentifier;
+- (void) executeWithDateOfBirth:(NSString *)dateOfBirth
+                               :(NSString *)bundleId
+                               :(GetIsMinorBlock)getIsMinorModel {
+    _dateOfBirth = dateOfBirth;
+    _bundleId = bundleId;
     _getIsMinorModel = getIsMinorModel ? getIsMinorModel : ^(GetIsMinorModel*user){};
     [super execute];
 }

@@ -41,10 +41,20 @@
 }
 
 
-- (void) getIsMinor:(NSString*) identifier :(GetIsMinorBlock)response {
+- (void) getIsMinor:(NSString*) dateOfBirth :(GetIsMinorBlock)response {
     
-    [_isMinorProcess executeWithIdentifier:identifier
-                                          :response];
+    NSString* bundleId = [self getBundleId];
+    
+    [_isMinorProcess executeWithDateOfBirth: dateOfBirth
+                                           : bundleId
+                                           : response];
+}
+
+- (NSString*) getBundleId {
+    
+    NSString *bundleId = [[NSBundle mainBundle] bundleIdentifier];
+    
+    return bundleId;
 }
 
 

@@ -28,7 +28,13 @@
 // country
 @property (nonatomic, strong) NSString *country;
 
+// consent age for country
+@property (nonatomic, assign) NSInteger consentAgeForCountry;
+
 // age
 @property (nonatomic, assign) NSInteger age;
+
+// is minor
+@property (nonatomic, assign) BOOL isMinor;
 
 @end

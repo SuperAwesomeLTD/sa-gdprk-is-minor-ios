@@ -10,9 +10,15 @@ PODS:
 DEPENDENCIES:
   - SAGDPRKisMinor (from `../`)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SAJsonParser
+    - SANetworking
+    - SAUtils
+
 EXTERNAL SOURCES:
   SAGDPRKisMinor:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   SAGDPRKisMinor: 673865cf253e3410a198342879a92f871a0cc862
@@ -22,4 +28,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: b47ecdad43905810b63d07a2c6efdbc28b6af325
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0

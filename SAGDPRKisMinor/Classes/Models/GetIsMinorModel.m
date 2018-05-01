@@ -13,7 +13,9 @@
     if (self = [super initWithJsonDictionary:jsonDictionary]) {
         
         _country = [jsonDictionary safeObjectForKey:@"country"];
+        _consentAgeForCountry = [[jsonDictionary safeObjectForKey:@"consentAgeForCountry"] integerValue];
         _age = [[jsonDictionary safeObjectForKey:@"age"] integerValue];
+        _isMinor = [jsonDictionary safeObjectForKey:@"isMinor"];
     }
     return self;
 }
@@ -25,7 +27,9 @@
 - (NSDictionary*) dictionaryRepresentation {
     return @{
              @"country": nullSafe(_country),
-             @"age": @(_age)
+             @"consentAgeForCountry": @(_consentAgeForCountry),
+             @"age": @(_age),
+             @"isMinor": @(_isMinor)
              };
 }
 

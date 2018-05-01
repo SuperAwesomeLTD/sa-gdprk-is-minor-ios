@@ -44,20 +44,23 @@
 - (void) getIsMinorDetails {
     
     
-    NSString *bundleIdentifier = [[NSBundle mainBundle] bundleIdentifier];
-                            
-    [SAAgeCheck.sdk getIsMinor:bundleIdentifier :^(GetIsMinorModel *model) {
+    NSString *dateOfBirth = @"2012-03-02";
+                                
+    [SAAgeCheck.sdk getIsMinor:dateOfBirth :^(GetIsMinorModel *model) {
         
         if (model != nil) {
             NSString* country = [model country];
+            NSInteger consentAgeForCountry = [model consentAgeForCountry];
             NSInteger age = [model age];
+            BOOL isMinor = [model isMinor];
             
-            NSLog(@"Country: %@ | Age: %ld", model.country, (long)age);
+            NSLog(@"Country: %@ | ConsentAgeForCountry %ld | Age: %ld | isMinor: %d", country, (long)consentAgeForCountry ,(long)age, isMinor);
             
-            NSString *newString = [NSString stringWithFormat:@"Success!\nCountry: %@, and Age: %ld", country, (long)age];
-            NSString *full = [NSString stringWithFormat:@"%@ \n %@ \n", [self->_textView text], newString];
+            NSString *newString = [NSString stringWithFormat:@"Success!\nCountry - '%@',\nConsentAgeForCountry - '%ld',\nAge - '%ld',\nisMinor - '%d'", country, (long)consentAgeForCountry ,(long)age, isMinor ];
             
-            [self->_textView setText: full];
+            NSString *fullText = [NSString stringWithFormat:@"%@\n %@\n", [self->_textView text], newString];
+            
+            [self->_textView setText: fullText];
         } else {
             [self->_textView setText: @"\nSomething went wrong...\n"];
         }

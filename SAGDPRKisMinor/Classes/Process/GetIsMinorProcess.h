@@ -12,6 +12,8 @@ typedef void (^GetIsMinorBlock)(GetIsMinorModel* model);
 
 @interface GetIsMinorProcess : Service
 
-- (void) executeWithIdentifier :(NSString*) identifier :(GetIsMinorBlock) getIsMinorModel;
+- (void) executeWithDateOfBirth: (NSString*) dateOfBirth
+                               : (NSString*) bundleId
+                               : (GetIsMinorBlock) getIsMinorModel;
 
 @end
