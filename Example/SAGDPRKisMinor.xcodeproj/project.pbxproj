@@ -24,6 +24,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9C39071220987E24003AE2F8 /* GetIsMinorModel+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39071120987E24003AE2F8 /* GetIsMinorModel+Mapping.swift */; };
+		9C39071620987E50003AE2F8 /* GetIsMinor+RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39071520987E50003AE2F8 /* GetIsMinor+RequestTests.swift */; };
+		9C39071920987E92003AE2F8 /* TestsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39071820987E92003AE2F8 /* TestsUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9354BFAE956F51662A85811C /* Pods-SAGDPRKisMinor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAGDPRKisMinor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAGDPRKisMinor_Example/Pods-SAGDPRKisMinor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9C39071020987E24003AE2F8 /* SAGDPRKisMinor_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SAGDPRKisMinor_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		9C39071120987E24003AE2F8 /* GetIsMinorModel+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GetIsMinorModel+Mapping.swift"; sourceTree = "<group>"; };
+		9C39071520987E50003AE2F8 /* GetIsMinor+RequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GetIsMinor+RequestTests.swift"; sourceTree = "<group>"; };
+		9C39071820987E92003AE2F8 /* TestsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsUtils.swift; sourceTree = "<group>"; };
 		A4B0F7C2AC833E8108E02E8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B2A8E60AFE6D986DEF03C021 /* Pods_SAGDPRKisMinor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAGDPRKisMinor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1180409E47428FC999854E /* Pods-SAGDPRKisMinor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAGDPRKisMinor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAGDPRKisMinor_Example/Pods-SAGDPRKisMinor_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -170,8 +177,12 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				9C39071720987E88003AE2F8 /* Utils */,
+				9C39071420987E35003AE2F8 /* Requests */,
+				9C39071320987E2D003AE2F8 /* Models */,
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				9C39071020987E24003AE2F8 /* SAGDPRKisMinor_Tests-Bridging-Header.h */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -196,6 +207,30 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		9C39071320987E2D003AE2F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C39071120987E24003AE2F8 /* GetIsMinorModel+Mapping.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9C39071420987E35003AE2F8 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				9C39071520987E50003AE2F8 /* GetIsMinor+RequestTests.swift */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		9C39071720987E88003AE2F8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9C39071820987E92003AE2F8 /* TestsUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -208,7 +243,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				1512644D93D1782D07C7ABAF /* [CP] Embed Pods Frameworks */,
-				27A063E9036B11391345F852 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,8 +261,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				4D07390B8F26BD4B437DAD25 /* [CP] Embed Pods Frameworks */,
-				FB2A139619BC037236BCDB0E /* [CP] Copy Pods Resources */,
+				BFDDC4D49E2C4D6B555E366B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +284,7 @@
 				ORGANIZATIONNAME = GuilhermeMota93;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0930;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -321,21 +355,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Example/Pods-SAGDPRKisMinor_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		27A063E9036B11391345F852 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Example/Pods-SAGDPRKisMinor_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3D35CB3642DD29DF1EAAAE03 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,21 +371,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4D07390B8F26BD4B437DAD25 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Tests/Pods-SAGDPRKisMinor_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		90E33D6295855B71D9D34968 /* [CP] Check Pods Manifest.lock */ = {
@@ -387,19 +391,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FB2A139619BC037236BCDB0E /* [CP] Copy Pods Resources */ = {
+		BFDDC4D49E2C4D6B555E366B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Tests/Pods-SAGDPRKisMinor_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Mockingjay/Mockingjay.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/URITemplate/URITemplate.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mockingjay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URITemplate.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Tests/Pods-SAGDPRKisMinor_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Tests/Pods-SAGDPRKisMinor_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -419,7 +430,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C39071620987E50003AE2F8 /* GetIsMinor+RequestTests.swift in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				9C39071220987E24003AE2F8 /* GetIsMinorModel+Mapping.swift in Sources */,
+				9C39071920987E92003AE2F8 /* TestsUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,6 +609,7 @@
 			baseConfigurationReference = 48ABD014D8E71A6AD013BFF8 /* Pods-SAGDPRKisMinor_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -607,8 +622,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/SAGDPRKisMinor_Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAGDPRKisMinor_Example.app/SAGDPRKisMinor_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -619,6 +638,7 @@
 			baseConfigurationReference = 0459D7E9E28D458D819B2EF2 /* Pods-SAGDPRKisMinor_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -627,8 +647,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/SAGDPRKisMinor_Tests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAGDPRKisMinor_Example.app/SAGDPRKisMinor_Example";
 				WRAPPER_EXTENSION = xctest;
 			};

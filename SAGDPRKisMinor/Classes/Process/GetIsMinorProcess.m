@@ -16,6 +16,12 @@
 
 @implementation GetIsMinorProcess
 
+- (id) initWithValues:(NSString*)dateOfBirth : (NSString*) bundleId {
+    _bundleId = bundleId;
+    _dateOfBirth = dateOfBirth;
+    return self;
+}
+
 - (NSString*) getEndpoint {
     return @"v1/countries/child-age";
 }

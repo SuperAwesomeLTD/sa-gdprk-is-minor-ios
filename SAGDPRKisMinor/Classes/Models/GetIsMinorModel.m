@@ -1,5 +1,5 @@
 //
-//  GotIsMinorModel.m
+//  GetIsMinorModel.m
 //  SAGDPRKisMinor
 //
 //  Created by Guilherme Mota on 27/04/2018.
