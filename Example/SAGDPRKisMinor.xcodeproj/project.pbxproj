@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E6E84D82D778425352D8A5F /* Pods_SAGDPRKisMinor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80F1004016C86127E217D86 /* Pods_SAGDPRKisMinor_Tests.framework */; };
-		3BF776CBE93C40287572E496 /* Pods_SAGDPRKisMinor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A8E60AFE6D986DEF03C021 /* Pods_SAGDPRKisMinor_Example.framework */; };
+		53307340D59780E6BB6673B9 /* Pods_SAGDPRKisMinor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CAE221F2A6375C9AE7895F /* Pods_SAGDPRKisMinor_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,10 +22,12 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7DD937392AC5898BBDEABABC /* Pods_SAGDPRKisMinor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B86A8B94BD971E9E69FFDC3 /* Pods_SAGDPRKisMinor_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9C39071220987E24003AE2F8 /* GetIsMinorModel+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39071120987E24003AE2F8 /* GetIsMinorModel+Mapping.swift */; };
 		9C39071620987E50003AE2F8 /* GetIsMinor+RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39071520987E50003AE2F8 /* GetIsMinor+RequestTests.swift */; };
 		9C39071920987E92003AE2F8 /* TestsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39071820987E92003AE2F8 /* TestsUtils.swift */; };
+		9C39071B20988874003AE2F8 /* fixtures.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C39071A20988873003AE2F8 /* fixtures.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0459D7E9E28D458D819B2EF2 /* Pods-SAGDPRKisMinor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAGDPRKisMinor_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAGDPRKisMinor_Tests/Pods-SAGDPRKisMinor_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		48ABD014D8E71A6AD013BFF8 /* Pods-SAGDPRKisMinor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAGDPRKisMinor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAGDPRKisMinor_Tests/Pods-SAGDPRKisMinor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DBE837D7E7E9B2DA2CC84BB /* Pods-SAGDPRKisMinor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAGDPRKisMinor_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAGDPRKisMinor_Tests/Pods-SAGDPRKisMinor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1E0437D99B56C6FBA812218D /* Pods-SAGDPRKisMinor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAGDPRKisMinor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAGDPRKisMinor_Example/Pods-SAGDPRKisMinor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		26CAE221F2A6375C9AE7895F /* Pods_SAGDPRKisMinor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAGDPRKisMinor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAF27D96C08D2EB00982498 /* SAGDPRKisMinor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SAGDPRKisMinor.podspec; path = ../SAGDPRKisMinor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* SAGDPRKisMinor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAGDPRKisMinor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,16 +66,16 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9354BFAE956F51662A85811C /* Pods-SAGDPRKisMinor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAGDPRKisMinor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAGDPRKisMinor_Example/Pods-SAGDPRKisMinor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9B86A8B94BD971E9E69FFDC3 /* Pods_SAGDPRKisMinor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAGDPRKisMinor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C39071020987E24003AE2F8 /* SAGDPRKisMinor_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SAGDPRKisMinor_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		9C39071120987E24003AE2F8 /* GetIsMinorModel+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GetIsMinorModel+Mapping.swift"; sourceTree = "<group>"; };
 		9C39071520987E50003AE2F8 /* GetIsMinor+RequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GetIsMinor+RequestTests.swift"; sourceTree = "<group>"; };
 		9C39071820987E92003AE2F8 /* TestsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsUtils.swift; sourceTree = "<group>"; };
+		9C39071A20988873003AE2F8 /* fixtures.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = fixtures.bundle; sourceTree = "<group>"; };
 		A4B0F7C2AC833E8108E02E8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B2A8E60AFE6D986DEF03C021 /* Pods_SAGDPRKisMinor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAGDPRKisMinor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB1180409E47428FC999854E /* Pods-SAGDPRKisMinor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAGDPRKisMinor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAGDPRKisMinor_Example/Pods-SAGDPRKisMinor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C2EAD189C6E4C3CC4E25AC9C /* Pods-SAGDPRKisMinor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAGDPRKisMinor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAGDPRKisMinor_Example/Pods-SAGDPRKisMinor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D1DED2D4969194F70A38F2C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D80F1004016C86127E217D86 /* Pods_SAGDPRKisMinor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAGDPRKisMinor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65AA90FF40734DD006EC9EA /* Pods-SAGDPRKisMinor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAGDPRKisMinor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAGDPRKisMinor_Tests/Pods-SAGDPRKisMinor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +86,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				3BF776CBE93C40287572E496 /* Pods_SAGDPRKisMinor_Example.framework in Frameworks */,
+				53307340D59780E6BB6673B9 /* Pods_SAGDPRKisMinor_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,20 +97,20 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				1E6E84D82D778425352D8A5F /* Pods_SAGDPRKisMinor_Tests.framework in Frameworks */,
+				7DD937392AC5898BBDEABABC /* Pods_SAGDPRKisMinor_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E6698994D24630944CF808C /* Pods */ = {
+		17A11A1D1CADCCC79C5F8104 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9354BFAE956F51662A85811C /* Pods-SAGDPRKisMinor_Example.debug.xcconfig */,
-				CB1180409E47428FC999854E /* Pods-SAGDPRKisMinor_Example.release.xcconfig */,
-				48ABD014D8E71A6AD013BFF8 /* Pods-SAGDPRKisMinor_Tests.debug.xcconfig */,
-				0459D7E9E28D458D819B2EF2 /* Pods-SAGDPRKisMinor_Tests.release.xcconfig */,
+				C2EAD189C6E4C3CC4E25AC9C /* Pods-SAGDPRKisMinor_Example.debug.xcconfig */,
+				1E0437D99B56C6FBA812218D /* Pods-SAGDPRKisMinor_Example.release.xcconfig */,
+				F65AA90FF40734DD006EC9EA /* Pods-SAGDPRKisMinor_Tests.debug.xcconfig */,
+				1DBE837D7E7E9B2DA2CC84BB /* Pods-SAGDPRKisMinor_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -121,7 +123,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				4E6698994D24630944CF808C /* Pods */,
+				17A11A1D1CADCCC79C5F8104 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,8 +143,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				B2A8E60AFE6D986DEF03C021 /* Pods_SAGDPRKisMinor_Example.framework */,
-				D80F1004016C86127E217D86 /* Pods_SAGDPRKisMinor_Tests.framework */,
+				26CAE221F2A6375C9AE7895F /* Pods_SAGDPRKisMinor_Example.framework */,
+				9B86A8B94BD971E9E69FFDC3 /* Pods_SAGDPRKisMinor_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,6 +179,7 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				9C39071A20988873003AE2F8 /* fixtures.bundle */,
 				9C39071720987E88003AE2F8 /* Utils */,
 				9C39071420987E35003AE2F8 /* Requests */,
 				9C39071320987E2D003AE2F8 /* Models */,
@@ -238,11 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SAGDPRKisMinor_Example" */;
 			buildPhases = (
-				3D35CB3642DD29DF1EAAAE03 /* [CP] Check Pods Manifest.lock */,
+				56378B25759154A89FB5A182 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				1512644D93D1782D07C7ABAF /* [CP] Embed Pods Frameworks */,
+				B2E53F05570832A48535E158 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,11 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "SAGDPRKisMinor_Tests" */;
 			buildPhases = (
-				90E33D6295855B71D9D34968 /* [CP] Check Pods Manifest.lock */,
+				3AF3D2C430F822286D9CF32C /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				BFDDC4D49E2C4D6B555E366B /* [CP] Embed Pods Frameworks */,
+				60D8DBA401BEA16BAB56F419 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,13 +328,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				9C39071B20988874003AE2F8 /* fixtures.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1512644D93D1782D07C7ABAF /* [CP] Embed Pods Frameworks */ = {
+		3AF3D2C430F822286D9CF32C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SAGDPRKisMinor_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56378B25759154A89FB5A182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SAGDPRKisMinor_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60D8DBA401BEA16BAB56F419 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Tests/Pods-SAGDPRKisMinor_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Mockingjay/Mockingjay.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/URITemplate/URITemplate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mockingjay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URITemplate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Tests/Pods-SAGDPRKisMinor_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E53F05570832A48535E158 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,64 +415,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Example/Pods-SAGDPRKisMinor_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3D35CB3642DD29DF1EAAAE03 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SAGDPRKisMinor_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		90E33D6295855B71D9D34968 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SAGDPRKisMinor_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BFDDC4D49E2C4D6B555E366B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Tests/Pods-SAGDPRKisMinor_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Mockingjay/Mockingjay.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/URITemplate/URITemplate.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mockingjay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URITemplate.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAGDPRKisMinor_Tests/Pods-SAGDPRKisMinor_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -576,12 +580,13 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9354BFAE956F51662A85811C /* Pods-SAGDPRKisMinor_Example.debug.xcconfig */;
+			baseConfigurationReference = C2EAD189C6E4C3CC4E25AC9C /* Pods-SAGDPRKisMinor_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SAGDPRKisMinor/SAGDPRKisMinor-Prefix.pch";
 				INFOPLIST_FILE = "SAGDPRKisMinor/SAGDPRKisMinor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -591,12 +596,13 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB1180409E47428FC999854E /* Pods-SAGDPRKisMinor_Example.release.xcconfig */;
+			baseConfigurationReference = 1E0437D99B56C6FBA812218D /* Pods-SAGDPRKisMinor_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SAGDPRKisMinor/SAGDPRKisMinor-Prefix.pch";
 				INFOPLIST_FILE = "SAGDPRKisMinor/SAGDPRKisMinor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -606,7 +612,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48ABD014D8E71A6AD013BFF8 /* Pods-SAGDPRKisMinor_Tests.debug.xcconfig */;
+			baseConfigurationReference = F65AA90FF40734DD006EC9EA /* Pods-SAGDPRKisMinor_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -635,7 +641,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0459D7E9E28D458D819B2EF2 /* Pods-SAGDPRKisMinor_Tests.release.xcconfig */;
+			baseConfigurationReference = 1DBE837D7E7E9B2DA2CC84BB /* Pods-SAGDPRKisMinor_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;

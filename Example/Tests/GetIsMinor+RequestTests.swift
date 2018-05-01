@@ -31,7 +31,7 @@ class GetIsMinorRequestTests: XCTestCase {
         endpoint = "v1/countries/child-age"
         
         //when
-        request = GetIsMinorProcess(dob, bundleId)
+        request = GetIsMinorProcess(values: dateOfBirth, bundleId)
         
     }
     
@@ -62,14 +62,14 @@ class GetIsMinorRequestTests: XCTestCase {
         expect(self.method).toNot(beNil())
     }
     
-    func test_Request_Body_ToBe_Nil(){
+    func test_Request_Body_ToBe_Empty(){
         //then
-        expect(self.request.getBody()).to(beNil())
+        expect(self.request.getBody().count).to(equal(0))
     }
     
-    public func test_RequestHeader_ToBe_Nil() {
+    public func test_RequestHeader_ToBe_Empty() {
         //then
-        expect(self.request.getHeader()).to(beNil())
+        expect(self.request.getHeader().count).to(equal(0))
     }
     
     func test_Request_Query_ToBe_NotNil() {
