@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SAGDPRKisMinor'
-  s.version          = '1.5.0'
+  s.version          = '1.6.0'
   s.summary          = 'The SuperAwesome GDPR-K is minor iOS SDK'
 
   s.description      = <<-DESC
@@ -24,8 +24,8 @@ The SuperAwesome GDPR-K is minor iOS SDK
   s.platform = :ios, '8.0'  
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.2' }
   s.source_files = 'SAGDPRKisMinor/Classes/**/*'
-  s.dependency 'SAJsonParser', '1.3.3'
-  s.dependency 'SAUtils', '1.5.2'
+  s.dependency 'SAJsonParser', '1.3.4'
+  s.dependency 'SAUtils', '1.5.4'
   s.dependency 'SANetworking',  '0.3.1'  
 
 
