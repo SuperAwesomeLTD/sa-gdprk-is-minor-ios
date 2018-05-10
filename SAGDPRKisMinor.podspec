@@ -24,9 +24,7 @@ The SuperAwesome GDPR-K is minor iOS SDK
   s.platform = :ios, '8.0'  
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.2' }
   s.source_files = 'SAGDPRKisMinor/Classes/**/*'
-  s.dependency 'SAJsonParser', '1.3.4'
-  s.dependency 'SAUtils', '1.5.4'
-  s.dependency 'SANetworking',  '0.3.1'  
-
-
+  s.dependency 'SAJsonParser', '1.3.5'
+  s.dependency 'SAUtils', '1.5.5'
+  s.dependency 'SANetworking',  '1.0.0'  
 end
