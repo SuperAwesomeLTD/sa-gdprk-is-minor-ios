@@ -54,9 +54,9 @@
             NSInteger age = [model age];
             BOOL isMinor = [model isMinor];
             
-            NSLog(@"Country: %@ | ConsentAgeForCountry %ld | Age: %ld | isMinor: %d", country, (long)consentAgeForCountry ,(long)age, isMinor);
+            NSLog(@"Country: %@ | ConsentAgeForCountry %ld | Age: %ld | isMinor: %@", country, (long)consentAgeForCountry ,(long)age, isMinor ? @"YES" : @"NO");
             
-            NSString *newString = [NSString stringWithFormat:@"Success!\nCountry - '%@',\nConsentAgeForCountry - '%ld',\nAge - '%ld',\nisMinor - '%d'", country, (long)consentAgeForCountry ,(long)age, isMinor ];
+            NSString *newString = [NSString stringWithFormat:@"Success!\nCountry - '%@',\nConsentAgeForCountry - '%ld',\nAge - '%ld',\nisMinor - '%@'", country, (long)consentAgeForCountry ,(long)age, isMinor ? @"YES" : @"NO" ];
             
             NSString *fullText = [NSString stringWithFormat:@"%@\n %@\n", [self->_textView text], newString];
             

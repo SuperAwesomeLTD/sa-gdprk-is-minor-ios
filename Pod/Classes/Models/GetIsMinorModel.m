@@ -15,7 +15,7 @@
         _country = [jsonDictionary safeObjectForKey:@"country"];
         _consentAgeForCountry = [[jsonDictionary safeObjectForKey:@"consentAgeForCountry"] integerValue];
         _age = [[jsonDictionary safeObjectForKey:@"age"] integerValue];
-        _isMinor = [jsonDictionary safeObjectForKey:@"isMinor"];
+        _isMinor = [[jsonDictionary safeObjectForKey:@"isMinor"] boolValue];
     }
     return self;
 }
