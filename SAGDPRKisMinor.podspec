@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SAGDPRKisMinor'
-  s.version          = '1.6.1'
+  s.version          = '2.0.0'
   s.summary          = 'The SuperAwesome GDPR-K is minor iOS SDK'
 
   s.description      = <<-DESC
